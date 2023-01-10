@@ -8,8 +8,8 @@ import org.seleniumutilities.SeleiniumBaseClass;
 
 public class sports365 extends SeleiniumBaseClass {
 	public static void main(String[] args) {
-		Seleniumchromelaunch();
-//		seleniumFirefoxlaunch();
+//		Seleniumchromelaunch();
+		seleniumFirefoxlaunch();
 		
 		seleniumLoadurl("https://www.sports365.in/");
 		
